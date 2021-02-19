@@ -17,23 +17,20 @@
           week you were born. Your Akan name is then outputed depending on your gender and day of birth. </p>
       </div>
         
-      <section id="secform">
+      <section id="secform" on>
         <form action="" class="text-center">
           <label for="date"> Enter birthday</label>
-          <input type="date" id="date"> <br> <br>
-          <select id="gender" name="gender">
+          <input type="date" id="date" required> <br> <br>
+          <select id="gender" name="gender" required>
             <option disabled selected>Gender</option>
-            <option>Male</option>
-            <option>Female</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
           </select> <br> <br>
-          <button class="custom-btn btn" type="submit" value="submit">Generate</button>
+          <input class="custom-btn btn" type="submit" value="Generate">
           <button class="custom-btn btn">Refresh</button>
         </form>
         <div>
-          <p>
-            output output output <span id="output"></span>
-          </p>
-
+          <p>output  <span id="output"></span></p>
         </div>  
       </section>
 
@@ -41,6 +38,7 @@
       
    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

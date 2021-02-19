@@ -17,15 +17,13 @@ const femaleAkanNames = [
     "Ama",
 ];
 
-let output = document.getElementById('output')
+let outputTag = document.getElementById('output')
 
 function getName(event){
     event.preventDefault()
     let date = document.getElementById('date').value
-
     let dateOfBirth = new Date(date)
     let message = `${dateOfBirth}`
-    output.innerHTML = message
-    
+    outputTag.innerHTML = message
 }
 
