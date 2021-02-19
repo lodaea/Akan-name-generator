@@ -1,18 +1,18 @@
 const maleAkanNames = [
-    "Kwame",
     "Kwasi",
-    "Kwadwo",
+    "kwadwo",
     "Kwabena",
     "Kwaku",
     "Yaw",
-    "Kofi"
+    "Kofi",
+    "Kwame",
 ];
 const femaleAkanNames = [
-    "Ama",
     "Akosua",
     "Adwoa",
     "Abenaa",
     "Akua",
     "Yaa",
     "Afua"
+    "Ama",
 ];
