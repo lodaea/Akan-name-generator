@@ -16,3 +16,16 @@ const femaleAkanNames = [
     "Afua"
     "Ama",
 ];
+
+let output = document.getElementById('output')
+
+function getName(event){
+    event.preventDefault()
+    let date = document.getElementById('date').value
+
+    let dateOfBirth = new Date(date)
+    let message = `${dateOfBirth}`
+    output.innerHTML = message
+    
+}
+
