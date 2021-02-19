@@ -72,6 +72,9 @@ function getName(event) {
             akanName = maleAkanNames[6]
     }
 
+    /*if parseInt(dateOfBirth.split(' ')[3])*/
+
     let message = `you were born on a ${day}; your name is ${akanName}`
     outputTag.innerHTML = message
+    
 }

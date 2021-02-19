@@ -18,20 +18,21 @@
       </div>
         
       <section id="secform">
-        <form id="inform" action="#" class="text-center" onsubmit="getName(event)">
+        <form action="#" class="text-center" onsubmit="getName(event)">
           <label for="date"> Enter birthday</label>
           <input type="date" id="date" required> <br> <br>
           <label for="gender">Gender</label>
           <select id="gender" required>
-            <option disabled selected>Gender</option>
+            <option disabled selected value="">Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select> <br> <br>
-          <input class="custom-btn btn" type="submit" value="Generate">
-          <button class="custom-btn btn">Refresh</button>
+          <button class="custom-btn btn1" type="submit">Generate</button>
+          <button class="custom-btn btn1"><a href="https://lodaea.github.io/Akan-name-generator/">Refresh</a></button>
         </form>
+        <br>
         <div>
-          <p>output:  <span id="output"></span></p>
+          <p><span id="output"></span></p>
         </div>  
       </section>
 
