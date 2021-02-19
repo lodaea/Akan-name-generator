@@ -21,5 +21,9 @@ body{
       }
 }
 #secform{
-    
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 4px;
+    background-position: center;
+    text-align: center;
 }
