@@ -21,11 +21,14 @@ body{
       }
 }
 #secform{
-    background-color: goldenrod;
+    background-color: rgba(218, 165, 32, 0.548);
     padding: 10px;
     border-radius: 4px;
+    border: solid burlywood 4px;
     background-position: center;
+    color: black;
     text-align: center;
+
 }
 
 .custom-btn {
