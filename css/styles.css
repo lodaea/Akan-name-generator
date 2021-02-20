@@ -80,3 +80,21 @@ body{
     text-decoration: none;
     color: black;
 }
+.footer{
+    position: relative; top: 50px; right: 16px;
+    justify-content: center center;
+    align-self: center;
+    background-color: chocolate;
+    text-align: center;
+    margin-top: 10px;
+    width: 103%;
+}
+@media screen and (max-width: 500px) {
+	.footer{
+		width: 110%;
+	}
+/*@media screen and (max-width: 375px) {
+    .footer-items {
+        width: 100%;
+        position: relative; top: 300px; right: 16px  
+    }*/
