@@ -1,4 +1,5 @@
 let outputTag = document.getElementById('output')
+date.max = new Date().toISOString().split('T')[0];
 
 
 function getName(event) {
@@ -71,8 +72,6 @@ function getName(event) {
     } else if (day === "Sat" && gender === "male") {
             akanName = maleAkanNames[6]
     }
-
-    /*if parseInt(dateOfBirth.split(' ')[3])*/
 
     let message = `you were born on a ${day}; your name is ${akanName}`
     outputTag.innerHTML = message
