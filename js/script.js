@@ -73,7 +73,7 @@ function getName(event) {
             akanName = maleAkanNames[6]
     }
 
-    let message = `you were born on a ${day}; your name is ${akanName}`
+    let message = `Birthdate: ${dateOfBirth}, your name is ${akanName}`
     outputTag.innerHTML = message
     
 }
